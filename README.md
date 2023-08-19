@@ -18,7 +18,7 @@
    ##a-
    ##a-
 
-2. ** dfsum: Gain Deeper Insights with Data Summarization**
+2. **dfsum: Gain Deeper Insights with Data Summarization**
 
    Uncover the essence of your data using the `dfsum` class. This functionality allows you to quickly grasp the essential statistics and characteristics of your datasets, facilitating better decision-making.
 
@@ -34,6 +34,7 @@
 
 
 3. **dfviz: Visualize Data for Enhanced Understanding**
+   
    The `dfviz` class empowers you to visualize each column in your dataset through a variety of charts, enabling you to grasp patterns, trends, and correlations with ease. Transform raw data into meaningful insights..
 
    **Syntax Example:**
@@ -46,7 +47,8 @@
    ##a-
    ##a-
 
-4. **dfload: Simplified Loading of Large Datasets** 
+4. **dfload: Simplified Loading of Large Datasets**
+   
    With the `dfload` class, effortlessly load and convert a multitude of files into dataframes. Save time and resources while working with extensive datasets, making the data loading process seamless..
 
    **Syntax Example:**
@@ -60,6 +62,7 @@
    ##a-
 
 5. **ml_model: Effortless Machine Learning Model Creation**
+   
    Create and assess machine learning models effortlessly using the `ml_model` class. Gauge the performance of your models with various algorithms, facilitating informed decision-making in your data-driven projects..
 
    **Syntax Example:**
