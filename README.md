@@ -14,9 +14,9 @@
    from dsmate import dfclean
 
    # Example code demonstrating dfclean usage
-   ##a-
-   ##a-
-   ##a-
+   #a-
+   #a-
+   #a-
 
 2. **dfsum: Gain Deeper Insights with Data Summarization**
 
@@ -28,9 +28,9 @@
    from dsmate import dfsum
 
    # Example code demonstrating dfsum usage
-   ##a-
-   ##a-
-   ##a-
+   #a-
+   #a-
+   #a-
 
 
 3. **dfviz: Visualize Data for Enhanced Understanding**
@@ -43,9 +43,9 @@
    from dsmate import dfsum
 
    # Example code demonstrating dfsum usage
-   ##a-
-   ##a-
-   ##a-
+   #a-
+   #a-
+   #a-
 
 4. **dfload: Simplified Loading of Large Datasets**
    
@@ -57,9 +57,9 @@
    from dsmate import dfsum
 
    # Example code demonstrating dfsum usage
-   ##a-
-   ##a-
-   ##a-
+   #a-
+   #a-
+   #a-
 
 5. **ml_model: Effortless Machine Learning Model Creation**
    
@@ -71,9 +71,9 @@
    from dsmate import dfsum
 
    # Example code demonstrating dfsum usage
-   ##a-
-   ##a-
-   ##a-
+   #a-
+   #a-
+   #a-
 
 ## Interactive Interface for Enhanced User Experience:
 
