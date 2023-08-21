@@ -14,11 +14,8 @@
    Syntax Example:
    ```python
    from datawindow import dfclean
-
-   # Example code demonstrating dfclean usage
-   #a-
-   #a-
-   #a-
+   window=dfclean(dataframe)
+   clean_df=window.clean
 
 2. **dfsum: Gain Deeper Insights with Data Summarization**
 
@@ -28,11 +25,7 @@
 
    ```python
    from datawindow import dfsum
-
-   # Example code demonstrating dfsum usage
-   #a-
-   #a-
-   #a-
+   window=dfsum(dataframe) # summarize the dataframe and understand more about it
 
 
 3. **dfviz: Visualize Data for Enhanced Understanding**
@@ -42,12 +35,8 @@
    **Syntax Example:**
 
    ```python
-   from datawindow import dfsum
-
-   # Example code demonstrating dfsum usage
-   #a-
-   #a-
-   #a-
+   from datawindow import dfviz
+   window=dfviz(dataframe) # plot the columns of the dataframe 
 
 4. **dfload: Simplified Loading of Large Datasets**
    
@@ -56,12 +45,9 @@
    **Syntax Example:**
 
    ```python
-   from datawindow import dfsum
-
-   # Example code demonstrating dfsum usage
-   #a-
-   #a-
-   #a-
+   from datawindow import dfload
+   window=dfload() #only accepts csv and excel files
+   dataframes=window.dataframes # get back a list of dataframes selected
 
 5. **ml_model: Effortless Machine Learning Model Creation**
    
@@ -70,12 +56,16 @@
    **Syntax Example:**
 
    ```python
-   from datawindow import dfsum
-
-   # Example code demonstrating dfsum usage
-   #a-
-   #a-
-   #a-
+   from datawindow import ml_model
+   window=ml_model(X,y,split=0.25,randomness=0,type=0)
+   # X- the independent features as dataframe
+   # y- dependent or target feature as dataframe
+   # split- percentage of how the dataset is split in training and test set; default value is 0.25
+   # randomness- how the rows are divided in the dataset, default is 0
+   # type- 0 for classification; default value
+   #     - 1 for regression
+   model=window.model # returns the trained model
+   
 
 ## Interactive Interface for Enhanced User Experience:
 
@@ -85,3 +75,14 @@ Whether you're a data scientist, analyst, or enthusiast, dsmate is your trusted 
 
 Discover the future of data processing and analysis – get started with dsmate today and experience the difference firsthand.
 Feel free to use this Markdown-formatted text for your needs!
+ # Template for building a model with ease
+ ```python
+from datawindow import dfclean,dfsum,dfviz,ml_model,dfload
+window=dfload()
+dataframe=window.dataframes[0]
+window=dfsum(dataframe)
+window=dfviz(dataframe)
+window=dfclean(dataframe)
+clean_df=window.clean
+window=ml_model(X,y,split=0.25,randomness=0,type=0)
+model=window.model
