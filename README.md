@@ -1,9 +1,9 @@
-# dsmate
+# datawindow
 # Simplifying Data Processing and Analysis in Python
 ![image](https://github.com/DL4150/datawindow/assets/92887753/61ff77c2-f93b-40c6-bee1-131d578807c1)
 
 
-**dsmate** is a comprehensive Python library designed to streamline and simplify the entire data manipulation and analysis workflow. With its intuitive classes and interactive interface, dsmate empowers users to effortlessly handle various data-related tasks, making data preparation, exploration, visualization, and machine learning model creation more accessible than ever before.
+**datawindow** is a comprehensive Python library designed to streamline and simplify the entire data manipulation and analysis workflow. With its intuitive classes and interactive interface, dsmate empowers users to effortlessly handle various data-related tasks, making data preparation, exploration, visualization, and machine learning model creation more accessible than ever before.
 
 ## Features:
 
@@ -13,7 +13,7 @@
 
    Syntax Example:
    ```python
-   from dsmate import dfclean
+   from datawindow import dfclean
 
    # Example code demonstrating dfclean usage
    #a-
@@ -27,7 +27,7 @@
    **Syntax Example:**
 
    ```python
-   from dsmate import dfsum
+   from datawindow import dfsum
 
    # Example code demonstrating dfsum usage
    #a-
@@ -42,7 +42,7 @@
    **Syntax Example:**
 
    ```python
-   from dsmate import dfsum
+   from datawindow import dfsum
 
    # Example code demonstrating dfsum usage
    #a-
@@ -56,7 +56,7 @@
    **Syntax Example:**
 
    ```python
-   from dsmate import dfsum
+   from datawindow import dfsum
 
    # Example code demonstrating dfsum usage
    #a-
@@ -70,7 +70,7 @@
    **Syntax Example:**
 
    ```python
-   from dsmate import dfsum
+   from datawindow import dfsum
 
    # Example code demonstrating dfsum usage
    #a-
