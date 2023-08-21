@@ -15,7 +15,7 @@
    ```python
    from datawindow import dfclean
    window=dfclean(dataframe)
-   clean_df=window.clean
+   clean_df=window.clean()
 
 2. **dfsum: Gain Deeper Insights with Data Summarization**
 
@@ -83,6 +83,6 @@ dataframe=window.dataframes[0]
 window=dfsum(dataframe)
 window=dfviz(dataframe)
 window=dfclean(dataframe)
-clean_df=window.clean
+clean_df=window.clean()
 window=ml_model(X,y,split=0.25,randomness=0,type=0)
 model=window.model
