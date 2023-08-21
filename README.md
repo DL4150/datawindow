@@ -1,6 +1,7 @@
 # dsmate
 # Simplifying Data Processing and Analysis in Python
-![image](https://github.com/DL4150/dsmate/assets/92887753/147333b1-8bc2-4b9c-8c58-45b806e5cdbe)
+![image](https://github.com/DL4150/datawindow/assets/92887753/61ff77c2-f93b-40c6-bee1-131d578807c1)
+
 
 **dsmate** is a comprehensive Python library designed to streamline and simplify the entire data manipulation and analysis workflow. With its intuitive classes and interactive interface, dsmate empowers users to effortlessly handle various data-related tasks, making data preparation, exploration, visualization, and machine learning model creation more accessible than ever before.
 
