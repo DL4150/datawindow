@@ -51,7 +51,7 @@
 
 5. **ml_model: Effortless Machine Learning Model Creation**
    
-   Create and assess machine learning models effortlessly using the `ml_model` class. Gauge the performance of your models with various algorithms, facilitating informed decision-making in your data-driven projects..
+   Create and assess machine learning models effortlessly using the `ml_model` class. Gauge the performance of your models with various algorithms, facilitating informed decision-making in your data-driven projects.
 
    **Syntax Example:**
 
@@ -65,6 +65,48 @@
    # type- 0 for classification; default value
    #     - 1 for regression
    model=window.model # returns the trained model
+
+6. **dl_model: Effortless Basic Deep Learning Model Creation**
+   Create and assess Deep learning models effortlessly using the dl_model class. Gauge the performance of your models with various structures, facilitating informed decision-making in your data-driven projects.
+
+   **Syntax Example:**
+
+   ```python
+   from datawindow import ml_model
+   window=dl_model(X,y,split=0.25,randomness=0)
+   # X- the independent features as dataframe
+   # y- dependent or target feature as dataframe
+   # split- percentage of how the dataset is split in training and test set; default value is 0.25
+   # randomness- how the rows are divided in the dataset, default is 0
+   model=window.model # returns the trained model
+
+
+7. **clust_model: Effortless Basic Deep Learning Model Creation**
+   By utilizing this technique, the function offers valuable insights into determining the ideal number of clusters, their arrangement within a dataset and creating a clustering model.
+
+   **Syntax Example:**
+
+   ```python
+   from datawindow import clust_model
+   window=clust_model(X)
+   #X is the dataframe
+   model=window.clust # returns the trained model
+
+8. **model_check: Comprehensive Model Performance Evaluation**
+   serves as a versatile tool for evaluating and comparing the performance of a predefined list of models on a specific dataset. It facilitates a systematic assessment of each model's efficacy, enabling data practitioners to make informed choices about model selection and deployment strategies. By quantitatively measuring how well different models fit the data, the function aids in optimizing decision-making processes related to model implementation.
+
+   **Syntax Example:**
+
+   ```python
+   from datawindow import model_check
+   window=model_check(model_list,X,y,type=0)
+   # model_list- list of models to compared
+   # X- the independent features as dataframe
+   # y- dependent or target feature as dataframe
+   # type- 0 for classification; default value
+   #     - 1 for regression
+   model=window.model # returns the trained model
+
    
 
 ## Interactive Interface for Enhanced User Experience:
