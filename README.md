@@ -119,7 +119,7 @@ Discover the future of data processing and analysis – get started with dsmate 
 Feel free to use this Markdown-formatted text for your needs!
  # Template for building a model with ease
  ```python
-from datawindow import dfclean,dfsum,dfviz,ml_model,dfload
+from datawindow import dl_model,ml_model,model_check,clust_model,dfload,dfviz,dfsum,dfclean
 window=dfload()
 dataframe=window.dataframes[0]
 window=dfsum(dataframe)
