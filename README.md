@@ -1,6 +1,7 @@
 # datawindow
 # Simplifying Data Processing and Analysis in Python
-![image](https://github.com/DL4150/datawindow/assets/92887753/61ff77c2-f93b-40c6-bee1-131d578807c1)
+![image](https://github.com/DL4150/datawindow/assets/92887753/216d63a1-7df6-4400-9ead-5c13cc3c3401)
+
 
 
 **datawindow** is a comprehensive Python library designed to streamline and simplify the entire data manipulation and analysis workflow. With its intuitive classes and interactive interface, dsmate empowers users to effortlessly handle various data-related tasks, making data preparation, exploration, visualization, and machine learning model creation more accessible than ever before.
