@@ -1,6 +1,6 @@
 # datawindow
 # Simplifying Data Processing and Analysis in Python
-                          ![datawindow_logo](https://github.com/DL4150/datawindow/assets/92887753/932dc1d9-ea34-4bb7-9196-e7cecca93af3)
+![datawindow_logo](https://github.com/DL4150/datawindow/assets/92887753/932dc1d9-ea34-4bb7-9196-e7cecca93af3)
 
 
 
